@@ -71,6 +71,6 @@ export class EmpleadosService{
         this.dataService.eliminarEmpleado(indice);
 
 
-        if (this.empleados!=null) this.dataService.guardarEmpleados(this.empleados);
+        if (this.empleados!=null)this.dataService.guardarEmpleados(this.empleados);
     }
 }
